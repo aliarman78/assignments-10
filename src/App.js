@@ -11,7 +11,7 @@ import RequireAuth from './Components/Auth/RequireAuth/RequireAuth';
 import Footer from './Components/Pages/Shared/Footer/Footer';
 import NotFound from './Components/Pages/Shared/NotFound/NotFound';
 import BLog from './Components/Pages/Blog/BLog';
-
+import About from './Components/Pages/About/About';
 
 function App() {
     return (< div >
@@ -25,6 +25,7 @@ function App() {
             <Route path='/checkout' element={<RequireAuth> <CheckOut /> </RequireAuth>} />
             <Route path='/service' element={<Services />} />
             <Route path='/blog' element={<BLog />} />
+            <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />

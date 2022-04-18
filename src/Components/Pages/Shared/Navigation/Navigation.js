@@ -52,7 +52,11 @@ const Navigation = () => {
                                 as={
                                     Link
                                 }
-                                to="/blog" > Blogs </Nav.Link>  {
+                                to="/blog" > Blogs </Nav.Link> <Nav.Link className="fw-bold "
+                                    as={
+                                        Link
+                                    }
+                                    to="/about" > About </Nav.Link> {
                             user ? <Nav.Link className="fw-bold "
                                 onClick={
                                     handleLogout
