@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "Mixed Berries Strawberry",
+    "description": "Strawberries are bright red, juicy, and sweet. They're an excellent source of vitamin C.",
+    "price": 49.99,
+    "img": "https://i.ibb.co/b350GbG/food-1.png"
+   
+  },
+  {
+    "id": "2",
+    "name": "Pear",
+    "description": "Pears are a powerhouse fruit, packing fiber, vitamins, and beneficial plant compounds.",
+    "price": 39.99,
+    "img": "https://i.ibb.co/GsXN57S/food-2.png"
+   
+  },
+  {
+    "id": "3",
+    "name": "Fresh Mango",
+    "description": "Mango is rich in vitamins and minerals and it has been associated with health benefits.",
+    "price": 29.99,
+    
+    "img": "https://i.ibb.co/XyXrZKb/food-3.png"
+   
+  }
+  
+  
+]
+
+
+
+
+
+
+
