@@ -34,8 +34,7 @@ const Navigation = () => {
                 <Navbar.Brand as={
                     Link
                 }
-                    to="/home">
-                        <span style={{ color: '#699403' }} className="fw-bold"> Home Food </span></Navbar.Brand >
+                    to="/home" >  <span style={{ color: '#699403' }} className="fw-bold"> Home Food </span></Navbar.Brand >
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ms-auto" >
@@ -49,8 +48,11 @@ const Navigation = () => {
                             as={
                                 Link
                             }
-                            to="/service" > Service </Nav.Link> 
-                             {
+                            to="/service" > Service </Nav.Link> <Nav.Link className="fw-bold "
+                                as={
+                                    Link
+                                }
+                                to="/blog" > Blogs </Nav.Link>  {
                             user ? <Nav.Link className="fw-bold "
                                 onClick={
                                     handleLogout
