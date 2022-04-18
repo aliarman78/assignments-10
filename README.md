@@ -1,11 +1,14 @@
-# Getting Started with Create React App
+# Home Food Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link: [Home Food](https://home-food-website.netlify.app/).
 
-## Available Scripts
+## In the project I used
 
-In the project directory, you can run:
-
+- React 
+- Bootstrap
+- Firebase 
+- React Icon
+- Live Link Hosting Netlify   
 ### `npm start`
 
 Runs the app in the development mode.\
