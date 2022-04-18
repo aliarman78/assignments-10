@@ -3,6 +3,7 @@ import {
     Col,
     Row
 } from "react-bootstrap";
+import bannerImg from "../../../img/bannerImg.png";
 import "./Banner.css";
 
 const Banner = () => {
@@ -23,6 +24,11 @@ const Banner = () => {
                     sm={
                         12
                     } >
+                < img className="img-fluid"
+                    src={
+                        bannerImg
+                    }
+                    alt="" />
             </Col> </Row> </div>
     );
 };
