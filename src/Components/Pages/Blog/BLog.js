@@ -30,7 +30,10 @@ const BLog = () => {
                     <li> Couchbase etc. </li>
                 </ul>
             </Col>
-            
+            <Col>
+                <h5>3. Difference between authorization and authentication</h5>
+                <p>Answer: One of the more confusing topics in Hadoop is how authorization and authentication work in the system. The first and most important thing to recognize is the subtle, yet extremely important, differentiation between authorization and authentication. Authentication is the process of determining whether someone is who they claim to be. Authorization is the function of specifying access rights to resources.</p>
+            </Col>
         </Row> </div>
     );
 };
