@@ -19,7 +19,7 @@ import {
 } from 'firebase/auth';
 
 import auth from "../../../../firebase.init";
-
+import logo from '../../../../img/logo.png'
 
 const Navigation = () => {
     const [user, loading, error] = useAuthState(auth);
@@ -34,7 +34,11 @@ const Navigation = () => {
                 <Navbar.Brand as={
                     Link
                 }
-                    to="/home" >  <span style={{ color: '#699403' }} className="fw-bold"> Home Food </span></Navbar.Brand >
+                    to="/home" > < img width="40px"
+                        src={
+                            logo
+                        }
+                        alt="" /> <span style={{ color: '#699403' }} className="fw-bold"> Home Food </span></Navbar.Brand >
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ms-auto" >
